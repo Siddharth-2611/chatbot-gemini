@@ -1,4 +1,4 @@
-# 💬 Basic WhatsApp-Style Chatbot
+# 💬 Gemini API Chatbot
 
 A simple chatbot web app with a WhatsApp-style interface.  
 Built using **Flask (Python)** and **Gemini API** for AI responses.
