@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 from google import genai
 
 # Temporary fix: set API key directly
-os.environ["GEMINI_API_KEY"] = "AIzaSxxxxxxxk7vNQc-509xxxxxxx6Ow7KsLI"
+os.environ["GEMINI_API_KEY"] = "AIxaSxxxxxxxk7vNxx-509xxxxxxx6Ow7Ksxx"
 
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
@@ -32,4 +32,5 @@ def chat_with_gemini():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
